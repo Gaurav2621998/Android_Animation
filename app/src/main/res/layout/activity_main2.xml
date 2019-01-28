@@ -33,6 +33,17 @@
         android:src="@drawable/index1"
         android:scaleType="fitXY"
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:id="@+id/data"
+            android:textSize="50sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:transitionName="data"
+            />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

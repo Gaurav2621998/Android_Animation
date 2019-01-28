@@ -14,10 +14,22 @@
         android:scaleType="fitXY"
         android:transitionName="profile"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="50sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:transitionName="data"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/data"
+        android:layout_marginTop="20dp"
+        android:transitionName="data"
         />
 
 </LinearLayout>
