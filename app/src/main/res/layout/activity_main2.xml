@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#ccc2cc"
     android:layout_height="match_parent"
     tools:context=".Main2Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_margin="4dp"
+        android:onClick="onClick"
+        android:transitionName="profile"
+
+        android:layout_height="wrap_content"
+        android:src="@drawable/index"
+        />
+    <ImageView
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abc"
+        android:onClick="onClick"
+        android:transitionName="profile"
+
+        android:src="@drawable/index1"
+        android:scaleType="fitXY"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/index2"
+            android:onClick="onClick"
+            android:transitionName="profile"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:onClick="onClick"
+            android:layout_margin="4dp"
+            android:transitionName="profile"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/index"
+            />
+        <ImageView
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:src="@drawable/index1"
+            android:transitionName="profile"
+
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:transitionName="profile"
+
+            android:src="@drawable/index2"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+</ScrollView>
